@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#arit{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    background-color: gray;
+    gap: 10px;
+    border: 0;
+    border-radius: 20px;
+}
+
+#display{
+    padding: 20px;
+    border: 0;
+    background-color: rgb(167, 161, 161);
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+#keys button{
+    width: 70px;
+    height: 70px;
+    border: 0;
+    border-radius: 50px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#keys button:hover{
+    background-color: rgb(82, 82, 82);
+    color: white;
+}
